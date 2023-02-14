@@ -8,8 +8,8 @@ package:
 source:
   - url: https://pypi.io/packages/source/p/pygad/pygad-{{ version }}.tar.gz
     sha256: 7e5e7c976ca4988f48866e9a0cfd945f68f5d0a05d96516b50cef8f8164a5d31
-    patches:
-      - 152.patch
+
+
 
   # This is just used to grab the LICENSE file, missing in the PyPI source archive
   - url: https://github.com/ahmedfgad/GeneticAlgorithmPython/archive/refs/tags/{{ version }}.tar.gz
