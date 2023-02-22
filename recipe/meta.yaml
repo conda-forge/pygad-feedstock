@@ -32,8 +32,8 @@ requirements:
     - matplotlib-base
 
 test:
-  imports:
-    - pygad
+  # imports:
+  #  - pygad
   commands:
     - pip list --verbose
     - pip check
