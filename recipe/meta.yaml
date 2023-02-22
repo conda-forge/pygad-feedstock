@@ -37,6 +37,7 @@ test:
   commands:
     - pip list --verbose
     - pip check
+    - python -c "import pygad"
   requires:
     - pip
 
