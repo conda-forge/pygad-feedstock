@@ -1,11 +1,11 @@
-About pygad
-===========
+About pygad-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pygad-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ahmedfgad/GeneticAlgorithmPython
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pygad-feedstock/blob/main/LICENSE.txt)
 
 Summary: PyGAD: A Python 3 Library for Building the Genetic Algorithm and Training Machine Learning Algoithms (Keras & PyTorch).
 
