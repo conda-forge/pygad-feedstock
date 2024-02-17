@@ -1,5 +1,5 @@
 {% set name = "pygad" %}
-{% set version = "3.3.0" %}
+{% set version = "3.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/p/pygad/pygad-{{ version }}.tar.gz
-    sha256: 32bb370a5ca8a15e0d6783d5846e2d6fc85e959c796682b74169afda78b7ea8b
+    sha256: 4291c4e23912684653ed38331f86bd4611715d6068cfaa3363d9039f2fb79259
 
   # This is just used to grab the LICENSE file, missing in the PyPI source archive
   - url: https://github.com/ahmedfgad/GeneticAlgorithmPython/archive/refs/tags/{{ version }}.tar.gz
-    sha256: abb155784f6bec5781aad8fea13292891c0d4d9fa9de22772c507e63fd4e4837
+    sha256: 8906e1e361cd4dd88eda8fefaf7d0fbb5be9fc08b3769d61251596c931cceda7
     folder: github
 
 
