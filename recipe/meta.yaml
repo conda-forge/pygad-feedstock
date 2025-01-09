@@ -17,15 +17,16 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps
+  script: {{ PYTHON }} -m pip install . -vv --no-build-isolation --no-deps
   number: 0
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - numpy
     - matplotlib-base
     - cloudpickle
@@ -37,6 +38,7 @@ test:
     - pip list --verbose
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
